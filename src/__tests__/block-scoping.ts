@@ -69,7 +69,10 @@ test('for loops use block scoping instead of function scoping', () => {
     test();
   `,
     { chapter: 3, native: true }
-  ).toMatchInlineSnapshot(`true`)
+  ).toMatchInlineSnapshot(`
+            "native:undefined
+            interpreted:true"
+          `)
 })
 
 // This is bad practice. Don't do this!
@@ -87,7 +90,10 @@ test('while loops use block scoping instead of function scoping', () => {
     test();
   `,
     { chapter: 4, native: true }
-  ).toMatchInlineSnapshot(`true`)
+  ).toMatchInlineSnapshot(`
+            "native:undefined
+            interpreted:true"
+          `)
 })
 
 // see https://www.ecma-international.org/ecma-262/6.0/#sec-for-statement-runtime-semantics-labelledevaluation
@@ -105,7 +111,10 @@ test('for loop `let` variables are copied into the block scope', () => {
   test();
   `,
     { chapter: 4, native: true }
-  ).toMatchInlineSnapshot(`1`)
+  ).toMatchInlineSnapshot(`
+            "native:undefined
+            interpreted:1"
+          `)
 })
 
 test('Cannot overwrite loop variables within a block', () => {

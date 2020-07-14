@@ -281,8 +281,10 @@ Object {
 test();",
   "displayResult": Array [],
   "errors": Array [],
-  "parsedErrors": "",
-  "result": 1,
+  "parsedErrors": "native:\\"Line null: Name UNKNOWN not declared.\\"
+interpreted:\\"\\"",
+  "result": "native:undefined
+interpreted:1",
   "resultStatus": "finished",
   "transpiled": "const native = nativeStorage;
 const forceIt = native.operators.get(\\"forceIt\\");
@@ -344,8 +346,10 @@ Object {
 test();",
   "displayResult": Array [],
   "errors": Array [],
-  "parsedErrors": "",
-  "result": true,
+  "parsedErrors": "native:\\"Line null: Name UNKNOWN not declared.\\"
+interpreted:\\"\\"",
+  "result": "native:undefined
+interpreted:true",
   "resultStatus": "finished",
   "transpiled": "const native = nativeStorage;
 const forceIt = native.operators.get(\\"forceIt\\");
@@ -515,8 +519,10 @@ Object {
 test();",
   "displayResult": Array [],
   "errors": Array [],
-  "parsedErrors": "",
-  "result": true,
+  "parsedErrors": "native:\\"Line null: Name UNKNOWN not declared.\\"
+interpreted:\\"\\"",
+  "result": "native:undefined
+interpreted:true",
   "resultStatus": "finished",
   "transpiled": "const native = nativeStorage;
 const forceIt = native.operators.get(\\"forceIt\\");

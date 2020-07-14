@@ -60,6 +60,7 @@ Array [
           "display": [Function],
           "draw_data": [Function],
           "error": [Function],
+          "get_time": [Function],
           "head": [Function],
           "is_array": [Function],
           "is_boolean": [Function],
@@ -119,7 +120,6 @@ Array [
           "parse_int": [Function],
           "prompt": [Function],
           "raw_display": [Function],
-          "runtime": [Function],
           "set_head": [Function],
           "set_tail": [Function],
           "stream": [Function],
@@ -152,7 +152,7 @@ Array [
           "globals": Object {
             "previousScope": null,
             "variables": Map {
-              "runtime" => Object {
+              "get_time" => Object {
                 "getValue": [Function],
                 "kind": "const",
               },
@@ -862,6 +862,7 @@ Array [
         "display": [Function],
         "draw_data": [Function],
         "error": [Function],
+        "get_time": [Function],
         "head": [Function],
         "is_array": [Function],
         "is_boolean": [Function],
@@ -921,7 +922,6 @@ Array [
         "parse_int": [Function],
         "prompt": [Function],
         "raw_display": [Function],
-        "runtime": [Function],
         "set_head": [Function],
         "set_tail": [Function],
         "stream": [Function],
@@ -954,7 +954,7 @@ Array [
         "globals": Object {
           "previousScope": null,
           "variables": Map {
-            "runtime" => Object {
+            "get_time" => Object {
               "getValue": [Function],
               "kind": "const",
             },
@@ -1657,6 +1657,7 @@ Array [
       "display": [Function],
       "draw_data": [Function],
       "error": [Function],
+      "get_time": [Function],
       "head": [Function],
       "is_array": [Function],
       "is_boolean": [Function],
@@ -1716,7 +1717,6 @@ Array [
       "parse_int": [Function],
       "prompt": [Function],
       "raw_display": [Function],
-      "runtime": [Function],
       "set_head": [Function],
       "set_tail": [Function],
       "stream": [Function],

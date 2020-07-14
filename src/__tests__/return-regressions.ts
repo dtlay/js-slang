@@ -175,7 +175,10 @@ test('Bare early returns in while loops work', () => {
     f();
   `,
     { chapter: 3, native: true }
-  ).toMatchInlineSnapshot(`1`)
+  ).toMatchInlineSnapshot(`
+            "native:undefined
+            interpreted:1"
+          `)
 })
 
 // This is bad practice. Don't do this!
@@ -200,7 +203,10 @@ test('Recursive call early returns in while loops work', () => {
     f();
   `,
     { chapter: 3, native: true }
-  ).toMatchInlineSnapshot(`3`)
+  ).toMatchInlineSnapshot(`
+            "native:undefined
+            interpreted:3"
+          `)
 })
 
 // This is bad practice. Don't do this!
@@ -225,7 +231,10 @@ test('Tail call early returns in while loops work', () => {
     f();
   `,
     { chapter: 3, native: true }
-  ).toMatchInlineSnapshot(`1`)
+  ).toMatchInlineSnapshot(`
+            "native:undefined
+            interpreted:1"
+          `)
 })
 
 // This is bad practice. Don't do this!
@@ -247,7 +256,10 @@ test('Bare early returns in for loops work', () => {
     f();
   `,
     { chapter: 3, native: true }
-  ).toMatchInlineSnapshot(`1`)
+  ).toMatchInlineSnapshot(`
+            "native:undefined
+            interpreted:1"
+          `)
 })
 
 // This is bad practice. Don't do this!
@@ -269,7 +281,10 @@ test('Recursive call early returns in for loops work', () => {
     f();
   `,
     { chapter: 3, native: true }
-  ).toMatchInlineSnapshot(`3`)
+  ).toMatchInlineSnapshot(`
+            "native:undefined
+            interpreted:3"
+          `)
 })
 
 // This is bad practice. Don't do this!
@@ -294,5 +309,8 @@ test('Tail call early returns in for loops work', () => {
     f();
   `,
     { chapter: 3, native: true }
-  ).toMatchInlineSnapshot(`1`)
+  ).toMatchInlineSnapshot(`
+            "native:undefined
+            interpreted:1"
+          `)
 })

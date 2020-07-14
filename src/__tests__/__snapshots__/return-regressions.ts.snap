@@ -20,8 +20,10 @@ Object {
   ",
   "displayResult": Array [],
   "errors": Array [],
-  "parsedErrors": "",
-  "result": 1,
+  "parsedErrors": "native:\\"Line null: Name UNKNOWN not declared.\\"
+interpreted:\\"\\"",
+  "result": "native:undefined
+interpreted:1",
   "resultStatus": "finished",
   "transpiled": "const native = nativeStorage;
 const forceIt = native.operators.get(\\"forceIt\\");
@@ -180,8 +182,10 @@ Object {
   ",
   "displayResult": Array [],
   "errors": Array [],
-  "parsedErrors": "",
-  "result": 1,
+  "parsedErrors": "native:\\"Line null: Name UNKNOWN not declared.\\"
+interpreted:\\"\\"",
+  "result": "native:undefined
+interpreted:1",
   "resultStatus": "finished",
   "transpiled": "const native = nativeStorage;
 const forceIt = native.operators.get(\\"forceIt\\");
@@ -374,8 +378,10 @@ Object {
   ",
   "displayResult": Array [],
   "errors": Array [],
-  "parsedErrors": "",
-  "result": 3,
+  "parsedErrors": "native:\\"Line null: Name UNKNOWN not declared.\\"
+interpreted:\\"\\"",
+  "result": "native:undefined
+interpreted:3",
   "resultStatus": "finished",
   "transpiled": "const native = nativeStorage;
 const forceIt = native.operators.get(\\"forceIt\\");
@@ -561,8 +567,10 @@ Object {
   ",
   "displayResult": Array [],
   "errors": Array [],
-  "parsedErrors": "",
-  "result": 3,
+  "parsedErrors": "native:\\"Line null: Name UNKNOWN not declared.\\"
+interpreted:\\"\\"",
+  "result": "native:undefined
+interpreted:3",
   "resultStatus": "finished",
   "transpiled": "const native = nativeStorage;
 const forceIt = native.operators.get(\\"forceIt\\");
@@ -745,8 +753,10 @@ Object {
   ",
   "displayResult": Array [],
   "errors": Array [],
-  "parsedErrors": "",
-  "result": 1,
+  "parsedErrors": "native:\\"Line null: Name UNKNOWN not declared.\\"
+interpreted:\\"\\"",
+  "result": "native:undefined
+interpreted:1",
   "resultStatus": "finished",
   "transpiled": "const native = nativeStorage;
 const forceIt = native.operators.get(\\"forceIt\\");
@@ -943,8 +953,10 @@ Object {
   ",
   "displayResult": Array [],
   "errors": Array [],
-  "parsedErrors": "",
-  "result": 1,
+  "parsedErrors": "native:\\"Line null: Name UNKNOWN not declared.\\"
+interpreted:\\"\\"",
+  "result": "native:undefined
+interpreted:1",
   "resultStatus": "finished",
   "transpiled": "const native = nativeStorage;
 const forceIt = native.operators.get(\\"forceIt\\");

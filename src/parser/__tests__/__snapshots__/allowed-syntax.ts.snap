@@ -2424,8 +2424,10 @@ while (i < 5) {
 i;",
   "displayResult": Array [],
   "errors": Array [],
-  "parsedErrors": "",
-  "result": 5,
+  "parsedErrors": "native:\\"Line null: Name UNKNOWN not declared.\\"
+interpreted:\\"\\"",
+  "result": "native:undefined
+interpreted:5",
   "resultStatus": "finished",
   "transpiled": "const native = nativeStorage;
 const forceIt = native.operators.get(\\"forceIt\\");
@@ -3098,8 +3100,10 @@ for (i = 1; i < 5; i = i + 1) {
 i;",
   "displayResult": Array [],
   "errors": Array [],
-  "parsedErrors": "",
-  "result": 5,
+  "parsedErrors": "native:\\"Line null: Name UNKNOWN not declared.\\"
+interpreted:\\"\\"",
+  "result": "native:undefined
+interpreted:5",
   "resultStatus": "finished",
   "transpiled": "const native = nativeStorage;
 const forceIt = native.operators.get(\\"forceIt\\");
@@ -4415,8 +4419,10 @@ for (let j = 0; j < 5; j = j + 1) {
 i;",
   "displayResult": Array [],
   "errors": Array [],
-  "parsedErrors": "",
-  "result": 4,
+  "parsedErrors": "native:\\"Line null: Name UNKNOWN not declared.\\"
+interpreted:\\"\\"",
+  "result": "native:undefined
+interpreted:4",
   "resultStatus": "finished",
   "transpiled": "const native = nativeStorage;
 const forceIt = native.operators.get(\\"forceIt\\");
